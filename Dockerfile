@@ -46,6 +46,6 @@ mkdir -p /var/run/dbus\n\
 exec /usr/bin/supervisord -c /etc/supervisor/conf.d/supervisord.conf\n\
 ' > /start.sh && chmod +x /start.sh
 
-EXPOSE 8080
+EXPOSE 3389
 
 CMD ["/start.sh"]
