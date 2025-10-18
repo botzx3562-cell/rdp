@@ -18,7 +18,7 @@ jobs:
         uses: superfly/flyctl-actions/setup-flyctl@master
       
       - name: Deploy to Fly.io
-        run: flyctl deploy --remote-only --app rdp-cncrpq
+        run: flyctl deploy --remote-only --app rdp-zx
         env:
           FLY_API_TOKEN: ${{ secrets.FLY_API_TOKEN }}
       
