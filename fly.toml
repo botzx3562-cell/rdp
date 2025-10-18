@@ -4,8 +4,6 @@ primary_region = "iad"
 [build]
   dockerfile = "Dockerfile"
 
-[env]
-
 [http_service]
   internal_port = 3389
   force_https = false
